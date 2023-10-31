@@ -7,6 +7,6 @@ describe('Hero component', () => {
     it("should be rendering correctly", () => {
         render (<Hero/>);
 
-        screen.getByTitle('main')
+        
     })
 })

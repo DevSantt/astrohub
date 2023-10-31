@@ -21,7 +21,8 @@
       "@/*": [
         "./src/*"
       ]
-    }
+    },
+    "baseUrl": "src/"
   },
   "include": [
     "next-env.d.ts",
@@ -29,7 +30,7 @@
     "**/*.tsx",
     "jest.config.js",
     "src/__tests__/index.test.tsx",
-    "./src"
+    "src"
   ],
   "exclude": [
     "node_modules"
