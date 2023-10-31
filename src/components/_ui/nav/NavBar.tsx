@@ -1,3 +1,4 @@
+import { ResponsiveMenu } from '../mobileMenu/MobileMenu'
 import styles from './navbar.module.scss'
 
 import { motion } from 'framer-motion'
@@ -14,13 +15,13 @@ export const NavBar = () => {
                 <img src={'./img/astrohub-logo.png'} alt="" />
             </div>
 
-            <ul className={styles.navList}>
+            <ResponsiveMenu>
                 <li>Início</li>
                 <li>Sobre</li>
                 <li>APOD</li>
                 <li>Galeria</li>
                 <li>Loja</li>
-            </ul>
+            </ResponsiveMenu>
         </motion.nav>
 
     )

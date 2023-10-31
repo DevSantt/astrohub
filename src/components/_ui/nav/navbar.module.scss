@@ -17,14 +17,3 @@
     }
 }
 
-.navList {
-    display: flex;
-    gap: 35px;
-    font-size: var(--text-md);
-    height: fit-content;
-
-    li:hover {
-        border-bottom: 0.5px solid var(--brand);
-
-    }
-}
