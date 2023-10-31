@@ -9,6 +9,7 @@ export const formatValue = (value: number) => {
     return value.toLocaleString('pt-BR')
 }
 
+
 export const SolarSystemData = () => {
     interface spaceData {
         planets: number,
