@@ -55,7 +55,7 @@ export const SolarSystemData = () => {
                     spaceData.map((item, index) => {
                         return (
 
-                        <Reveal Key={index}>
+                        <Reveal key={index}>
 
                             <div className={styles.counter}>
                                 <h2>{item.knowCount}</h2>
