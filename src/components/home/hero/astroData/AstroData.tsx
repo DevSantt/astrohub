@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react'
 
 import styles from './astrodata.module.scss'
 
-import { solarSystemApi } from '@/services/api/apisRequest'
-import { Reveal } from '@/components/utils/Reveal'
+import { solarSystemApi } from 'services/api/apisRequest'
+import { AxiosResponse } from 'axios'
 
 export const formatValue = (value: number) => {
     return value.toLocaleString('pt-BR')
@@ -27,7 +27,7 @@ export const SolarSystemData = () => {
     useEffect(() => {
         solarSystemApi
         .get('/knowncount')
-        .then((res) => {
+        .then((res: AxiosResponse) => {
             setKnownCount({
                 planets: res.data.knowncount[0].knownCount,
                 moons: res.data.knowncount[4].knownCount,
@@ -54,14 +54,10 @@ export const SolarSystemData = () => {
                 {
                     spaceData.map((item, index) => {
                         return (
-
-                        <Reveal>
-
                             <div key={index} className={styles.counter}>
                                 <h2>{item.knowCount}</h2>
                                 <h3>{item.name}</h3>
                             </div>
-                        </Reveal>
                         )
                     })
                 }
