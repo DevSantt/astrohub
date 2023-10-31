@@ -2,7 +2,6 @@ import React from 'react'
 import styles from './hero.module.scss'
 import { motion } from 'framer-motion'
 import { SolarSystemData } from './astroData/AstroData'
-import { TypeAnimation } from 'react-type-animation'
 
 export const Hero = () => {
     return (

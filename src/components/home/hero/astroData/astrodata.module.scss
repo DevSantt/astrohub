@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container .title{
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 20px;
+}
+
+.countersContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.countersContainer .counter{
+    text-align: center;
+
+    h2{
+        font-family: 'Gothic A1';
+        font-weight: 100;
+        border-bottom: 1px solid var(--background);
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 1.5rem;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+}
+

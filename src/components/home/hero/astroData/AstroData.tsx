@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import styles from './astrodata.module.scss'
 
 import { solarSystemApi } from '@/services/api/apisRequest'
+import { Reveal } from '@/components/utils/Reveal'
 
 export const formatValue = (value: number) => {
     return value.toLocaleString('pt-BR')
@@ -46,17 +47,21 @@ export const SolarSystemData = () => {
     ]
 
     return(
-        <div>
-            <h1>Sistema Solar em Números</h1>
+        <div className={styles.container}>
+            <h1 className={styles.title}>Sistema Solar</h1>
 
-            <div>
+            <div className={styles.countersContainer}>
                 {
                     spaceData.map((item, index) => {
                         return (
-                            <div key={index}>
+
+                        <Reveal>
+
+                            <div key={index} className={styles.counter}>
                                 <h2>{item.knowCount}</h2>
                                 <h3>{item.name}</h3>
                             </div>
+                        </Reveal>
                         )
                     })
                 }
