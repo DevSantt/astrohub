@@ -1,0 +1,27 @@
+.content{
+    margin-top: 100px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-top: 30px;
+
+    h1{
+        font-family: "Gothic A1";
+        font-weight: 100;
+        letter-spacing: 25px;
+        font-size: 4.0rem;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    img{
+        width: calc(150px + 10%);
+        rotate: 270deg;
+        margin-top: -80px;
+    }
+}

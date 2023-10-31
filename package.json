@@ -6,19 +6,41 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest --config=jest.config.js"
   },
   "dependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.2",
+    "@babel/preset-env": "^7.23.2",
+    "@types/react-test-renderer": "^18.0.5",
+    "babel-jest": "^29.7.0",
+    "framer-motion": "^10.16.4",
+    "next": "14.0.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.0"
+    "sass": "^1.69.5"
   },
   "devDependencies": {
-    "typescript": "^5",
+    
+    "@babel/plugin-transform-react-jsx": "^7.22.15",
+    "@babel/preset-typescript": "^7.23.2",
+    "@jest/globals": "^29.7.0",
+    "@testing-library/react": "^14.0.0",
+    "@types/jest": "^29.5.6",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.0.0"
+    "eslint-config-next": "14.0.0",
+    "jest": "^29.7.0",
+
+    
+    "babel-jest": "26.6.3",
+    "node-sass": "4.14.1",
+    "react-test-renderer": "17.0.1",
+
+    "ts-jest": "^29.1.1",
+    "typescript": "^5"
   }
 }
