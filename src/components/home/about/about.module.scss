@@ -1,0 +1,31 @@
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.container .content {
+    position: relative;
+
+    
+}
+
+.container .content .image{
+    width: 99vw;
+    max-width: 1400px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.container .content .about {
+    width: 600px;
+    height: 350px;
+    background-color: var(--background);
+    position: absolute;
+    bottom: 100px;
+    right: 50px;
+    opacity: 40%;
+
+    
+    
+}
