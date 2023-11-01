@@ -1,0 +1,49 @@
+.container {
+    width: 100vw;
+    margin-top: 50px;
+    margin-bottom: 80px;
+
+
+    h2{
+        font-family: 'Gothic A1', sans-serif;
+        font-size: var(--text-lg);
+        font-weight: 300;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+}
+
+.container .infoContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+
+.container .infoContainer .info {
+    font-size: var(--text-2xl);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    width: fit-content;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+    &:hover{
+        transform: translateY(-20px);
+    }
+
+    h3{
+        font:  400 var(--text-md) 'Goldman', sans-serif;
+
+    }
+
+    span{
+        font: 300 var(--text-sm) 'Gothic A1', sans-serif;
+        width: 220px;
+        
+    }
+}
