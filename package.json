@@ -16,9 +16,12 @@
     "@types/react-test-renderer": "^18.0.5",
     "axios": "^1.6.0",
     "framer-motion": "^10.16.4",
+    "icons": "^1.0.0",
     "next": "14.0.0",
-    "react": "^18",
+    "react": "^18.2.0",
     "react-dom": "^18",
+    "react-icons": "^4.11.0",
+    "react-intersection-observer": "^9.5.2",
     "sass": "^1.69.5",
     "styled-components": "^6.1.0"
   },
