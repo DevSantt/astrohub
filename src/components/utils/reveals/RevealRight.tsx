@@ -1,4 +1,4 @@
-import React, { use, useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { useAnimation, motion, useInView } from "framer-motion";
 
 
@@ -12,7 +12,7 @@ const variants = {
   visible: { opacity: 1, x: 0, transition: {duration: 1 } }, 
   hidden: {opacity: 0, x: 100}
 }
-export const Reveal = ({children, width = 'fit-content'}: Props) => {
+export const RevealRight = ({children, width = 'fit-content'}: Props) => {
   const controls = useAnimation();
   const ref = useRef(null)
   const inView = useInView(ref, {once: true})
