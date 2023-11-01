@@ -1,4 +1,4 @@
-import { Reveal } from 'components/utils/reveal/Reveal'
+import { RevealRight } from 'components/utils/reveals/RevealRight'
 import styles from './info.module.scss'
 
 import { PiGlobeStandThin, PiCompassToolThin, PiRocketLaunchThin, PiPlanetThin } from 'react-icons/pi'
@@ -7,7 +7,7 @@ import { PiGlobeStandThin, PiCompassToolThin, PiRocketLaunchThin, PiPlanetThin }
 export const Info = () => {
     return (
 
-        <Reveal>
+        <RevealRight>
 
         <section className={styles.container}>
             <h2>Explore o Universo</h2>
@@ -40,6 +40,6 @@ export const Info = () => {
 
             </div>
         </section>
-        </Reveal>
+        </RevealRight>
     )
 }

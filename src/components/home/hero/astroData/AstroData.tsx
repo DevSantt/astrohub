@@ -26,6 +26,10 @@ export const SolarSystemData = () => {
         dwarfPlanets: 0,
     })
     useEffect(() => {
+       getSolarSystemData()
+    }, [])
+    
+    const getSolarSystemData = () => {
         solarSystemApi
         .get('/knowncount')
         .then((res: AxiosResponse) => {
@@ -37,7 +41,7 @@ export const SolarSystemData = () => {
                 dwarfPlanets: res.data.knowncount[1].knownCount
             })
         })
-    }, [])
+    }
 
     let spaceData = [
         { name: 'Planetas', knowCount: knownCount.planets },
