@@ -5,11 +5,13 @@ import { motion } from 'framer-motion'
 
 export const NavBar = () => {
     return (
-        <motion.nav
-            initial={{ y: -100 }}
-            animate={{ y: 0 }}
-            transition={{ duration: 0.5 }}
-            className={styles.navBar}>
+
+        <motion.header 
+        initial={{ y: -100 }}
+        animate={{ y: 0 }}
+        transition={{ duration: 0.5 }}>
+
+        <nav className={styles.navBar}>
 
             <div className={styles.logo}>
                 <img src={'./img/astrohub-logo.png'} alt="" />
@@ -22,7 +24,8 @@ export const NavBar = () => {
                 <li>Galeria</li>
                 <li>Loja</li>
             </ResponsiveMenu>
-        </motion.nav>
+        </nav>
+        </motion.header>
 
     )
 

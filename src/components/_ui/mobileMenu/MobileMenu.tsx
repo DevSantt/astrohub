@@ -25,9 +25,10 @@ export const ResponsiveMenu = (props: any) => {
 
 const List = styled.ul`
     display: flex;
-    font-size: 1.5rem;
+    font-size: var(--text-sm);
     color: #fff;
     gap: 20px;
+    flex-direction: row;
 
     li{
         letter-spacing: 3px;
