@@ -30,9 +30,15 @@ const List = styled.ul`
     gap: 20px;
     flex-direction: row;
 
+
     li{
         letter-spacing: 3px;
+        color: var(--background-light);
         cursor: pointer;
+        transition: 0.3s ease-in-out;
+        &:hover{
+            color: var(--text);
+        }
 
     }
 
