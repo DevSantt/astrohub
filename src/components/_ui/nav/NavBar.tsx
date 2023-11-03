@@ -1,4 +1,4 @@
-import { RevealRight } from 'components/utils/reveals/RevealRight'
+import { Reveal } from 'components/utils/reveals/Reveal'
 import { ResponsiveMenu } from '../mobileMenu/MobileMenu'
 import styles from './navbar.module.scss'
 
@@ -14,7 +14,7 @@ export const NavBar = () => {
                 <img src={'./img/astrohub-logo.png'} alt="" />
             </div>
 
-            <RevealRight>
+            <Reveal>
                 <ResponsiveMenu>
                     <li>Início</li>
                     <li>Sobre</li>
@@ -22,7 +22,7 @@ export const NavBar = () => {
                     <li>Galeria</li>
                     <li>Loja</li>
                 </ResponsiveMenu>
-            </RevealRight>
+            </Reveal>
         </nav>
 
 

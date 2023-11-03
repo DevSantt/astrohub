@@ -1,7 +1,4 @@
-import { SolarSystemData, formatValue } from "./AstroData";
-
-import { http } from 'msw' 
-import { setupServer } from 'msw/node';
+import { SolarSystemData, formatValue } from "components/home/information/solarSystemData/SolarSystemData"
 
 
 describe("AstroData component", () => {
