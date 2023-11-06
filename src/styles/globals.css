@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Gothic+A1:wght@100;200;300;400;700&family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,700;0,800;1,300&family=Goldman:wght@400;700&family=Gothic+A1:wght@100;300;400;700&family=Open+Sans:wght@300;400;700&display=swap');
 
 :root {
   font-size: 62.5%;
@@ -7,10 +7,11 @@
   --bg-opaque: rgb(17, 17, 17, 0.25);
   --background-light: rgb(201, 201, 201);
   --background-dark: rgb(8, 8, 8);
+  --dark: rgb(0, 0, 0);
 
 
   --text: rgb(235, 236, 243);
-  --brand: #FFC857;
+  --brand: #ffecc7;
 
   --text-xs: 1.8rem;
   --text-sm: 2.0rem;
@@ -40,7 +41,7 @@ body {
 body {
   color: var(--text);
   background: var(--background-dark);
-  font-family: 'Goldman', sans-serif;
+  font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 ul, li {
