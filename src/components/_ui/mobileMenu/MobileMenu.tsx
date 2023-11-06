@@ -33,6 +33,7 @@ const List = styled.ul`
 
     li{
         letter-spacing: 3px;
+        text-transform: uppercase;
         color: var(--background-light);
         cursor: pointer;
         transition: 0.3s ease-in-out;

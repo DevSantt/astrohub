@@ -16,12 +16,18 @@ export const NavBar = () => {
 
             <Reveal>
                 <ResponsiveMenu>
-                    <li>Início</li>
-                    <li>Sobre</li>
+                    <li>
+                        <a href="#introduction">
+                            Introduction
+                        </a>
+                    </li>
+                    <li>History</li>
+                    <li>News</li>
                     <li>APOD</li>
-                    <li>Galeria</li>
-                    <li>Loja</li>
+                    <li>Solar System</li>
                 </ResponsiveMenu>
+
+
             </Reveal>
         </nav>
 
