@@ -5,10 +5,10 @@ import { Information } from "components/home/information/Information";
 
 export const Home = () => {
     return(
-        <main>
+        <>
         <NavBar/>
         <Hero/>
         <Information/>
-        </main>
+        </>
     )
 }
