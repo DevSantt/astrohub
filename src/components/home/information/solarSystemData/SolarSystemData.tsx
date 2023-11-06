@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-import styles from './astrodata.module.scss'
+import styles from './solarSystemData.module.scss'
 
 import { solarSystemApi } from 'services/api/apisRequest'
 import { AxiosResponse } from 'axios'
@@ -45,16 +45,16 @@ export const SolarSystemData = () => {
     }
 
     let spaceData = [
-        { name: 'Planetas', knowCount: knownCount.planets },
-        { name: 'Luas', knowCount: knownCount.moons },
-        { name: 'Asteróides', knowCount: formatValue(knownCount.asteroids) },
-        { name: 'Cometas', knowCount: formatValue(knownCount.comets) },
-        { name: 'Anões', knowCount: knownCount.dwarfPlanets }
+        { name: 'Planets', knowCount: knownCount.planets },
+        { name: 'Moons', knowCount: knownCount.moons },
+        { name: 'Asteroids', knowCount: formatValue(knownCount.asteroids) },
+        { name: 'Comets', knowCount: formatValue(knownCount.comets) },
+        { name: 'Dwarf Planets', knowCount: knownCount.dwarfPlanets }
     ]
 
     return (
-        <div className={styles.container}>
-            <h1 className={styles.title}>Sistema Solar</h1>
+        <div className={styles.container} title='main'>
+            <h1 className={styles.title}>Solar System In Numbers</h1>
 
             <div className={styles.countersContainer}>
                 {

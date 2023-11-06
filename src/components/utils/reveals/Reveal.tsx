@@ -18,7 +18,7 @@ export const Reveal = ({children, width = 'fit-content'}: Props) => {
     if(inView) {
       controls.start("visible")
     } else {
-      controls.set("hiddn")
+      controls.set("hidden")
     }
   }, [controls, inView]);
   return (

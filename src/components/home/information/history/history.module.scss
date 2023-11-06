@@ -1,0 +1,40 @@
+.history {
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+
+
+}
+
+ .history .historyContent {
+    width: 500px;
+
+        h1{
+            color: var(--brand);
+            font-weight: 400;
+            font-size: var(--text-lg);
+        }
+
+        h2{
+            font-size: var(--text-sm);
+            font-weight: 400;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        p{
+            font-family: "Open Sans", sans-serif;
+            font-weight: 300;
+            font-size: var(--text-xs);
+            margin-bottom: 10px;
+        }
+}
+
+ .history .histImage {
+    width:600px;
+    -webkit-mask-image: radial-gradient(circle, var(--background-dark) 30%, transparent 70%);
+    mask-image: radial-gradient(circle, var(--background-dark) 30%, transparent 70%);
+
+}

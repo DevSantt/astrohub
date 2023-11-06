@@ -1,0 +1,47 @@
+
+
+.intro {
+    position: relative;
+
+
+}
+
+ .intro .bgImage {
+    width: 90vw;
+    max-width: 1400px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.astroContent {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: fit-content;
+    background-color: var(--bg-opaque);
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    padding: 30px 20px;
+
+    h1 {
+        font-size: var(--text-lg);
+        font-weight: 400;
+        color: var(--brand);
+    }
+
+    h2{
+        font-weight: 400;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-size: var(--text-sm);
+    }
+
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        font-size: var(--text-xs);
+        margin-bottom: 20px;
+    }
+
+}
