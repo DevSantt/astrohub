@@ -1,16 +1,21 @@
+import { useState } from 'react'
 import style from "./button.module.scss"
+import { Modal } from 'components/_ui/modal/Modal'
 
 interface Props {
-    url: string,
     children: string,
-    color?: string,
-    bgColor?: string
+    onClick?: React.MouseEventHandler<HTMLButtonElement>
 }
 
-export const Button = ({ url, children, color, bgColor }: Props) => {
+export const Button = ({  children, onClick}: Props) => {
+    const [openModal, setOpenModal] = useState(false)
+
     return (
-        <a href={url} target="_blank" rel="noreferrer">
-            <button className={style.button} style={{ color: color, backgroundColor: bgColor }}>{children}</button>
-        </a>
+    <>
+     <button className={style.button} onClick={() => setOpenModal(true)}>{children}</button>
+        <Modal isOpen={openModal} setModalOpen={()=> setOpenModal(!openModal)}>
+            <p>Modal</p>
+        </Modal>
+    </>
     )
 }
