@@ -7,15 +7,11 @@ interface Props {
     onClick?: React.MouseEventHandler<HTMLButtonElement>
 }
 
-export const Button = ({  children, onClick}: Props) => {
-    const [openModal, setOpenModal] = useState(false)
+export const Button = ({ children, onClick}: Props) => {
 
     return (
     <>
-     <button className={style.button} onClick={() => setOpenModal(true)}>{children}</button>
-        <Modal isOpen={openModal} setModalOpen={()=> setOpenModal(!openModal)}>
-            <p>Modal</p>
-        </Modal>
+     <button className={style.button} onClick={onClick}>{children}</button>
     </>
     )
 }
