@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import { MdClose } from "react-icons/md";
 import { motion } from 'framer-motion';
-import { createPortal } from 'react-dom';
 
 import styles from './modal.module.scss'
 
