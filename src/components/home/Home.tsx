@@ -4,11 +4,12 @@ import { Hero } from "components/home/hero/Hero";
 import { Information } from "components/home/information/Information";
 
 export const Home = () => {
-    return(
+    return (
         <>
-        <NavBar/>
-        <Hero/>
-        <Information/>
+            <NavBar />
+            <Hero />
+            <Information />
+
         </>
     )
 }

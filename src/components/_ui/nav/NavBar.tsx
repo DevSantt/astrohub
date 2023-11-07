@@ -21,7 +21,9 @@ export const NavBar = () => {
                             Introduction
                         </a>
                     </li>
+                    <a href="#history">
                     <li>History</li>
+                    </a>
                     <li>News</li>
                     <li>APOD</li>
                     <li>Solar System</li>

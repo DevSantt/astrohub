@@ -36,7 +36,7 @@ export const History = () => {
     return (
         <>
             <Reveal>
-            <div className={styles.history}>
+            <div className={styles.history} id='history'>
                 <div className={styles.historyContent}>
                     <h1>History</h1>
                     <h2>One of the oldest sciences</h2>
