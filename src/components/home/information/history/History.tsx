@@ -22,9 +22,9 @@ export const History = () => {
 
                 <p>The 17th century witnessed the development of the first telescopes, a crucial invention that allowed astronomers like Galileo Galilei to make revolutionary discoveries. Galileo observed the phases of Venus and the moons of Jupiter, providing compelling evidence for the heliocentric model.</p>
 
-                <p>Isaac Newton's laws of motion and universal gravitation in the 17th century offered a unifying explanation for celestial mechanics, forever altering our comprehension of the cosmos. The subsequent centuries brought about the discovery of distant galaxies, the classification of stars, and the understanding of light as both a particle and a wave.</p>
+                <p>Isaac Newton&apos;s laws of motion and universal gravitation in the 17th century offered a unifying explanation for celestial mechanics, forever altering our comprehension of the cosmos. The subsequent centuries brought about the discovery of distant galaxies, the classification of stars, and the understanding of light as both a particle and a wave.</p>
 
-                <p>The 20th century saw the birth of modern astronomy, as Edwin Hubble's observations revealed the expansion of the universe. The development of powerful telescopes and the advent of space exploration allowed astronomers to probe deeper into the cosmos, unveiling the secrets of black holes, neutron stars, and the cosmic microwave background radiation.</p>
+                <p>The 20th century saw the birth of modern astronomy, as Edwin Hubble&apos;s observations revealed the expansion of the universe. The development of powerful telescopes and the advent of space exploration allowed astronomers to probe deeper into the cosmos, unveiling the secrets of black holes, neutron stars, and the cosmic microwave background radiation.</p>
 
                 <p>Today, astronomy is a thriving field, with researchers studying exoplanets, dark matter, and dark energy, as well as unraveling the mysteries of the early universe through instruments like the Hubble Space Telescope and the Large Hadron Collider.</p>
 

@@ -14,7 +14,7 @@ export const Introduction = () => {
 
                 <p>One of the fundamental principles of astronomy is the use of telescopes and other instruments to collect and analyze electromagnetic radiation from space. This data provides valuable insights into the nature of celestial bodies. For example, the Hubble Space Telescope has captured stunning images of distant galaxies, allowing astronomers to study their composition, motion, and history.</p>
 
-                <p>The field of astronomy has made significant contributions to our understanding of the universe's vastness. The estimated number of galaxies in the observable universe is around 2 trillion, each containing billions or even trillions of stars. This vastness has led to the realization that the universe is approximately 13.8 billion years old, based on the observed cosmic microwave background radiation.</p>
+                <p>The field of astronomy has made significant contributions to our understanding of the universe&apos;s vastness. The estimated number of galaxies in the observable universe is around 2 trillion, each containing billions or even trillions of stars. This vastness has led to the realization that the universe is approximately 13.8 billion years old, based on the observed cosmic microwave background radiation.</p>
 
                 <p>Astronomers also study the life cycles of stars. For instance, our sun, a G-type main-sequence star, is about 4.6 billion years old and is expected to continue shining for several billion more years before evolving into a red giant and eventually collapsing into a white dwarf. This knowledge helps us understand the fate of stars throughout the universe.</p>
 
