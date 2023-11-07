@@ -25,9 +25,9 @@ export const Modal = ({
         const body = document.querySelector("body");
 
         if (isOpen) {
-            body!.style.overflowY = "hidden";
-        } else {
             body!.style.overflowY = "scroll";
+        } else {
+            body!.style.overflowY = "hidden";
         }
     }, [isOpen])
 
