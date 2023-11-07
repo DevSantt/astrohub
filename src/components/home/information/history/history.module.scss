@@ -8,7 +8,7 @@
 
 }
 
- .history .historyContent {
+ .historyContent {
     width: 500px;
 
         h1{
@@ -32,7 +32,7 @@
         }
 }
 
- .history .histImage {
+  .histImage {
     width:600px;
     -webkit-mask-image: radial-gradient(circle, var(--background-dark) 30%, transparent 70%);
     mask-image: radial-gradient(circle, var(--background-dark) 30%, transparent 70%);
