@@ -3,7 +3,6 @@ import { SolarSystemData, formatValue } from "components/home/information/solarS
 import { render, screen } from '@testing-library/react'
 
 
-
 describe("AstroData component", () => {
     const handlers = [
         
