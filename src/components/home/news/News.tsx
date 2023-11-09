@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
 
-import { NewsApi, newsApi } from 'services/api/apisRequest'
+import { NewsApi } from 'services/api/apisRequest'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
