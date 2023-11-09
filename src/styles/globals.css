@@ -5,6 +5,7 @@
 
   --background: rgb(17, 17, 17);
   --bg-opaque: rgb(17, 17, 17, 0.25);
+  --bg-opaque-dark: rgba(17, 17, 17, 0.521);
   --background-light: rgb(201, 201, 201);
   --background-dark: rgb(8, 8, 8);
   --dark: rgb(0, 0, 0);
