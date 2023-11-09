@@ -34,7 +34,7 @@ export const News = () => {
                 modules={[Navigation, Pagination, Autoplay]}
                 slidesPerView={1}
                 pagination={{ clickable: true, dynamicBullets: true }}
-                navigation={{enabled: true}}
+                navigation
                 autoplay={{ delay: 5000, disableOnInteraction: true }}
                 className={styles.swiper}
                 loop={true}
