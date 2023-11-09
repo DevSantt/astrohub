@@ -23,8 +23,6 @@ export const News = () => {
             .get('')
             .then(res => setNews(res.data.data))
     }
-
-    console.log(news)
     return (
         <section className={styles.container}>
             <h1 className={styles.title}> Featured News </h1>
