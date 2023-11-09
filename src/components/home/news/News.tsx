@@ -1,16 +1,17 @@
 import React, { useEffect, useState } from 'react'
+import { Button } from 'components/_ui/button/Button';
 
 
 import { NewsApi } from 'services/api/apisRequest'
 
-import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import { register } from 'swiper/element/bundle'
 register();
 
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Pagination, Autoplay } from 'swiper/modules';
+
 import 'swiper/css/bundle';
 import styles from './news.module.scss'
-import { Button } from 'components/_ui/button/Button';
 
 export const News = () => {
     const [news, setNews] = useState<any[]>([])
@@ -28,13 +29,11 @@ export const News = () => {
         <section className={styles.container}>
             <h1 className={styles.title}> Featured News </h1>
             <Swiper
-                modules={[Navigation, Pagination, Autoplay]}
+                modules={[ Pagination, Autoplay]}
                 slidesPerView={1}
                 pagination={{ clickable: true, dynamicBullets: true }}
-                navigation
-                autoplay={{ delay: 5000, disableOnInteraction: true }}
+                autoplay={{delay: 5000, disableOnInteraction: true}}
                 className={styles.swiper}
-                loop={true}
             >
                 {
                     news.map((item, index) => {
