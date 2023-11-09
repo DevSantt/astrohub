@@ -1,5 +1,15 @@
+.container {
+    margin-top: 50px;
+}
+
+.title {
+    margin-bottom: 50px;
+    margin-left: 20px;
+    font-size: var(--text-xl);
+}
+
 .swiper {
-    width: 100%;
+    width: 95%;
     span {
         background-color: var(--brand);
     }
@@ -31,7 +41,7 @@
         h2 {
             text-transform: uppercase;
             font-size: var(--text-md);
-            width: 500px;
+            width: 600px;
         }
 
         h3 {
