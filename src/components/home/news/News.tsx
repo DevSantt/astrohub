@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
 
-import { newsApi } from 'services/api/apisRequest'
+import { NewsApi, newsApi } from 'services/api/apisRequest'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
@@ -18,15 +18,12 @@ export const News = () => {
         getNews()
     }, [])
     const getNews = () => {
-        newsApi
+        NewsApi
             .get('')
-            .then(res => {
-                let data = res.data.articles.filter((articles: any) => (articles.author !== null))
-                setNews(data)
-                console.log(data)
-            })
-            .catch(err => console.error("Ops! Something is wrong: " + err))
+            .then(res => setNews(res.data.data))
     }
+
+    console.log(news)
     return (
         <section className={styles.container}>
             <h1 className={styles.title}> Featured News </h1>
@@ -43,10 +40,10 @@ export const News = () => {
                     news.map((item, index) => {
                         return (
                             <SwiperSlide key={index} className={styles.swiperSlide}>
-                                <img className={styles.image} src={item.urlToImage} alt="" />
+                                <img className={styles.image} src={item.image_url} alt="" />
                                 <div className={styles.info}>
                                     <h2>{item.title}</h2>
-                                    <h3>{item.author}</h3>
+                                    <h3>{item.description}</h3>
                                     <Button link={item.url}>Learn More</Button>
                                 </div>
                             </SwiperSlide>

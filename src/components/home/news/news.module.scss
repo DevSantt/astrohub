@@ -21,7 +21,7 @@
 
 .swiperSlide {
     position: relative;
-    height: 500px;
+    height: 400px;
 }
 
 
@@ -36,12 +36,11 @@
     position: absolute;
     bottom: 0px;
     padding: 20px;
-
+    width: 100%;
     background-color: var(--bg-opaque-dark);
         h2 {
             text-transform: uppercase;
             font-size: var(--text-md);
-            width: 600px;
         }
 
         h3 {
