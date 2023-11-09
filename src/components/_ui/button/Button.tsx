@@ -1,7 +1,4 @@
-import { useState } from 'react'
 import style from "./button.module.scss"
-import { Modal } from 'components/_ui/modal/Modal'
-import Link from 'next/link'
 
 interface Props {
     children: string,

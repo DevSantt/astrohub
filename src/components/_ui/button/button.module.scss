@@ -1,12 +1,11 @@
 .button{
-    font-family: 'Gothic A1', sans-serif;
-    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
     text-transform: uppercase;
-    font-size: var(--text-xs);
-    padding: 10px 15px;
+    font-size: var(--text-xxs);
+    padding: 15px 40px;
     color: var(--text);
-    border: 0.5px solid var(--text);
-    border-radius: 10px;
+    border: 1.5px solid var(--text);
     background-color: transparent;
     cursor: pointer;
     margin-top: 20px;
@@ -17,5 +16,6 @@
     color: var(--background-dark);
     background-color: var(--text);
     border-radius: 5px;
+
 }
 
