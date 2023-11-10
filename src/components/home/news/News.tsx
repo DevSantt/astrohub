@@ -23,6 +23,7 @@ export const News = () => {
             .get('')
             .then(res => setNews(res.data.data))
     }
+    console.log(news)
     return (
         <section className={styles.container}>
             <h1 className={styles.title}> Featured News </h1>
@@ -37,10 +38,10 @@ export const News = () => {
                     news.map((item, index) => {
                         return (
                             <SwiperSlide key={index} className={styles.swiperSlide}>
-                                <img className={styles.image} src={item.image_url} alt="" />
+                                <img className={styles.image} src={item.imageUrl} alt="" />
                                 <div className={styles.info}>
                                     <h2>{item.title}</h2>
-                                    <h3>{item.description}</h3>
+                                    <h3>{item.author}</h3>
                                     <Button link={item.url}>Learn More</Button>
                                 </div>
                             </SwiperSlide>
