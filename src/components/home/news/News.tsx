@@ -20,8 +20,8 @@ export const News = () => {
     }, [])
     const getNews = () => {
         NewsApi
-            .get('')
-            .then(res => setNews(res.data.data))
+            .get('/')
+            .then(res => setNews(res.data))
     }
     console.log(news)
     return (
