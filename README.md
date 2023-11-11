@@ -15,7 +15,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://i.postimg.cc/gcKJ8Jwt/astrohub-high-resolution-logo.png" alt="Logo" width="100%" height="300" style="object-fit:cover; ">
+    <img src="https://i.postimg.cc/gcKJ8Jwt/astrohub-high-resolution-logo.png" alt="Logo" width="100%" height="300" style="object-fit:cover;">
   </a>
 
   <h3 align="center">Explore the cosmos!</h3>
