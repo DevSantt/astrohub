@@ -1,40 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Welcome to AstroHub
 
-## Getting Started
+Welcome to AstroHub – an immersive landing page dedicated to astronomy, meticulously crafted with an array of interactive components and cutting-edge functionalities. Explore the cosmos with engaging visuals, real-time celestial data, and seamless user experiences. This project uses ReactJS, NextJS, NodeJS, and TypeScript, all harmoniously converging to deliver a celestial journey for enthusiasts. Join us in unraveling the mysteries of the universe at AstroHub.
 
-First, run the development server:
+## Table of Contents
+- [Introduction](#introduction)
+- [Demo](#demo)
+  - [Mobile View](#mobile-view)
+  - [Desktop View](#desktop-view)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Libraries](#libraries)
+- [Contributing](#contributing)
+- [Acknowledgements](#acknowledgements)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Introduction
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> Status: developing.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Demo
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+> Status: developing.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Mobile View
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![Mobile View]()
 
-## Learn More
+### Desktop View
 
-To learn more about Next.js, take a look at the following resources:
+![Desktop View]()
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+> Status: developing.
 
-## Deploy on Vercel
+## Technologies
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+> Status: developing.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Installation
+
+> Status: developing.
+
+
+## Usage
+
+> Status: developing.
+
+## Libraries
+
+> Status: developing.
+
+## Contributing 
+
+> Status: developing.
+
+## Acknowledgements
+
+> Status: developing.
