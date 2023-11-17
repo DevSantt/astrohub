@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 
 import styles from './solarSystemData.module.scss'
 
-import { solarSystemApi } from 'services/api/apisRequest'
+import { solarSystemApi } from 'services/apisRequest'
 import { AxiosResponse } from 'axios'
 import { Reveal } from 'components/utils/reveals/Reveal'
 

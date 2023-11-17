@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Button } from 'components/_ui/button/Button';
 
 
-import { NewsApi } from 'services/api/apisRequest'
+import { NewsApi } from 'services/apisRequest'
 
 import { register } from 'swiper/element/bundle'
 register();
