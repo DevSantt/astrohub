@@ -21,7 +21,7 @@ export const News = () => {
     const getNews = () => {
         NewsApi
             .get('/')
-            .then(res => setNews(res.data))
+            .then(res => setNews(res.data.results))
     }
     console.log(news)
     return (
