@@ -1,5 +1,6 @@
 async function SpaceNews () {
     const response = await fetch('https://spacenewsapi-production.up.railway.app/')
-    return response.json()
+    const news = await response.json()
+    return news
 }
     
