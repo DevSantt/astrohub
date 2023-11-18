@@ -1,6 +1,9 @@
-async function SpaceNews () {
-    const response = await fetch('https://spacenewsapi-production.up.railway.app/')
-    const news = await response.json()
-    return news
+async function SpaceNews (req, res) {
+   const newsResponse = await fetch("https://spacenewsapi-production.up.railway.app/")
+   const newsResponseJson = await newsResponse.json()
+
+   res.json({
+    results: newsResponseJson
+   })
 }
     
