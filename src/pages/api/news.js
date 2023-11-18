@@ -3,7 +3,7 @@ async function SpaceNews (req, res) {
    const newsResponseJson = await newsResponse.json()
    const news = await newsResponseJson.data
 
-   res.json({
+   res.send({
     results: news
    })
 }
