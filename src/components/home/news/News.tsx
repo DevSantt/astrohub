@@ -25,7 +25,7 @@ export const News = () => {
     }
     console.log(news)
     return (
-        <section className={styles.container}>
+        <section className={styles.container} id='news'>
             <h1 className={styles.title}> Featured News </h1>
             <Swiper
                 modules={[ Pagination, Autoplay]}
