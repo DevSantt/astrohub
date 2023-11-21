@@ -53,7 +53,7 @@ export const SolarSystemData = () => {
     ]
 
     return (
-        <div className={styles.container} title='main'>
+        <div className={styles.container} title='main' id='solarSystem'>
             <h1 className={styles.title}>Solar System In Numbers</h1>
 
             <div className={styles.countersContainer}>

@@ -26,8 +26,16 @@ export const NavBar = () => {
                             News
                         </a>
                     </li>
-                    <li>APOD</li>
-                    <li>Solar System</li>
+                    <li>
+                        <a href="#apod">
+                            APOD
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#solarSystem">
+                            Solar System
+                        </a>
+                    </li>
                 </ResponsiveMenu>
             </Reveal>
         </nav>

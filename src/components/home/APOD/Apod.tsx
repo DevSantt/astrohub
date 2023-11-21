@@ -31,7 +31,7 @@ export const Apod = () => {
             }))
     }
     return (
-        <section className={styles.container}>
+        <section className={styles.container} id='apod'>
             <div className={styles.content}>
                 <span className={styles.span}>today</span>
                 <h1 className={styles.title}>Picture of The Day</h1>
