@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.content {
+    max-width: 500px;
+    .span{
+        letter-spacing: 5px;
+        font-weight: 100;
+    }
+    .title{
+        font-size: 4.5rem;
+        margin-bottom: 50px;
+    }
+    .podTitle {
+        font-size: 3.5rem;
+        margin-bottom: 20px;
+    }
+    .podDesc {
+        font-weight: 300;
+        margin-bottom: 5px;
+    }
+    a {
+        display: flex;
+        align-items: center;
+        font-weight: 800;
+        font-size: 2.0rem;
+        .icon{
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            background-color: red;
+            margin-left: 5px;
+        }
+    }
+}
+
+.apodImage{
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+}
