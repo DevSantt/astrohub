@@ -26,7 +26,6 @@ export const News = () => {
     }
     console.log(news)
     return (
-        <Reveal>
 
             <section className={styles.container} id='news'>
                 <h1 className={styles.title}> Featured News </h1>
@@ -53,6 +52,5 @@ export const News = () => {
                     }
                 </Swiper>
             </section>
-        </Reveal>
     )
 }
