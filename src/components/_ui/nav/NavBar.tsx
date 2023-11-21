@@ -29,8 +29,6 @@ export const NavBar = () => {
                     <li>APOD</li>
                     <li>Solar System</li>
                 </ResponsiveMenu>
-
-
             </Reveal>
         </nav>
 
